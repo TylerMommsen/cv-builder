@@ -1,0 +1,29 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding: 20px;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.section-title {
+    font-size: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-text {
+    font-weight: bold;
+}
