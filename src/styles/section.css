@@ -1,29 +1,105 @@
+body {
+	height: 100%;
+	font-family: sans-serif;
+}
+
+#root {
+	height: 100%;
+}
+
+.app {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-sections {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+	height: 100%;
+	gap: 20px;
+	padding: 20px;
+}
+
+.display-cv-section {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cv-display {
+	position: fixed;
+	top: 20px;
+	left: calc(50% + 20px);
+	bottom: 20px;
+	background-color: rgb(231, 231, 231);
+	/* border: 2px solid black; */
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 10px;
+	gap: 20px;
+	width: calc(50% - 50px);
+	box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.cv-title {
+	text-align: center;
+	font-size: 64px;
+	margin-bottom: 50px;
+}
+
+.cv-display-sections {
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
+
+.cv-section {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
 .section {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    padding: 20px;
-    margin: 20px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    gap: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: aliceblue;
+	border-radius: 10px;
+	gap: 20px;
+	box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .section-title {
-    font-size: 32px;
+	font-size: 24px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 label {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 .label-text {
-    font-weight: bold;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+input {
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 50%;
+	padding: 5px;
 }
