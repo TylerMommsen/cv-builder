@@ -1,5 +1,5 @@
 # CV Builder  
 
-Creating a CV builder application to practice using React.  
+CV Builder application, built with React.
 
 View live demo [here](https://tylermommsen-cv-builder.netlify.app/) 👈
